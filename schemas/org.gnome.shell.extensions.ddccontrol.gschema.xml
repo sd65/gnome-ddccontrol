@@ -1,0 +1,25 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.gnome-ddccontrol"
+      path="/org/gnome/shell/extensions/gnome-ddccontrol/">
+
+    <key type="i" name="init-brightness">
+        <default>50</default>
+        <summary>Brightness to set when lauching this app.</summary>
+        <description>Brightness to set when lauching this app.</description>
+        <range min="1" max="100"/>
+    </key>
+
+    <key name="brightness-address" type="s">
+      <default>"0x10"</default>
+      <summary>Adress where the screen store brightness</summary>
+      <description>Adress where the screen store brightness</description>
+    </key>
+
+    <key name="device" type="s">
+      <default>"dev:/dev/i2c-4"</default>
+      <summary>The screen to ajust</summary>
+      <description>The screen to ajust</description>
+    </key>
+
+  </schema>
+</schemalist>

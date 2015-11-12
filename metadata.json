@@ -1,0 +1,11 @@
+{
+  "description": "A way to ajust your external screen brightness in status bar.", 
+  "name": "Gnome ddccontrol",
+  "shell-version": [
+    "3.18"
+  ], 
+  "url": "https://github.com/sd65/gnome-ddccontrol", 
+  "uuid": "gnome-ddccontrol@sylvain.doignon", 
+  "settings-schema": "org.gnome.shell.extensions.gnome-ddccontrol", 
+  "version": 1.0
+}
